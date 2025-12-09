@@ -1,0 +1,12 @@
+name: test2
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  delete_data:
+    runs-on: windows-latest
+    steps:
+      - run: ./build.bat
