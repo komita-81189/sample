@@ -9,4 +9,5 @@ jobs:
   delete_data:
     runs-on: windows-latest
     steps:
+      - uses: actions/checkout@v3
       - run: build.bat
