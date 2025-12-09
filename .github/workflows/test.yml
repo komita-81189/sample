@@ -9,4 +9,4 @@ jobs:
   delete_data:
     runs-on: ubuntu-latest
     steps:
-      - run: ${{ github.workspace }}/build.bat
+      - run: C:/Work/Source/sample/build.bat
