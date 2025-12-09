@@ -9,5 +9,5 @@ jobs:
   delete_data:
     runs-on: windows-latest
     steps:
-      - run: call build.bat
+      - run: build.bat
         shell: cmd
