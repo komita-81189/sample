@@ -10,3 +10,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: ./build.bat
+        shell: cmd
